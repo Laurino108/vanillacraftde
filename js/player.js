@@ -1,5 +1,5 @@
 function ping() {
-    $.getJSON("http://api.minetools.eu/ping/play.tundlor.net/25565", function(json){
+    $.getJSON("https://api.minetools.eu/ping/vanillacraft.instant-mc.de/25769", function(json){
         if(json.Players !== undefined) {
             if(json.Players > 0){
                 $("#top-bar .server-status .prefix").html("Join ");
